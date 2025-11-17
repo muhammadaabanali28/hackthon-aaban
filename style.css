@@ -227,70 +227,79 @@ body {
       margin-top: 30px;
     }
     /* footer */
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 0;
-    }
+  
 
-    .logo-footer img {
-      height: 500px;
-      border: 5px solid black;
-    border-radius: 100px 100px 0 0;
-      
-    }
+/* ---------------- HEADER ---------------- */
 
-    .app-download {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    .app-download {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  footer {
-      background-color: #003366;
-      color: white;
-      padding: 40px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;             
+}
 
-    footer .contact-info {
-      display: flex;
-      flex-direction: column;
-    }
-        footer .resources,
-    footer .follow-us {
-      display: flex;
-      flex-direction: column;
-      margin-left: 50px;
-    }
+.logo-footer img {
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 100px 100px 0 0;
+  object-fit: cover;
+  width: 100%;
+  max-width: 500px;             /* responsive */
+}
 
-    footer .resources a,
-    footer .follow-us a {
-      color: white;
-      text-decoration: none;
-      margin-bottom: 10px;
-    }
+.app-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
 
-    footer .follow-us a {
-      display: flex;
-      align-items: center;
-    }
-
-    footer .follow-us img {
-      height: 60px;
-      width: 60px;
-      border-radius: 50%;
-      margin-right: 10px;
-    }
+@media (min-width: 768px) {
+  app-download {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
 
 
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
+footer .row {
+  align-items: center;
+}
+
+footer .contact-info,
+footer .resources,
+footer .follow-us {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+footer .resources a,
+footer .follow-us a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+footer .follow-us a {
+  display: flex;
+  align-items: center;
+}
+
+footer .follow-us img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;     
+}
