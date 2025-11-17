@@ -1,0 +1,293 @@
+/* GLOBAL */
+body {
+  background: #f5f7ff;
+  font-family: var(--bs-font-sans-serif);
+}
+
+
+
+/* NAVBAR */
+.navbar {
+  padding: 20px 0;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  height: 30px;
+  width: 120px;
+}
+
+.btn-signup {
+  background: #347dff;
+  color: #fff !important;
+  padding: 8px 20px;
+  border-radius: 6px;
+}
+
+/* HERO */
+.download-img img {
+  width: 150px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+/* SEARCH BOX */
+.search-box {
+  background: #fff;
+  border-radius: 14px;
+  padding: 25px;
+  margin-top: 40px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.search-btn {
+  background: #347dff;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+/* HOW IT WORKS */
+.how-its-works {
+  background: #dde7f6;
+  color: #347dff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 44%;
+  margin-bottom: 25px;
+}
+ /* icons  */
+ .icon-bg {
+  width: 90px;
+  height: 90px;
+  background: #EAF3FF;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* brands logo */
+.logo-container img {
+      margin-top: 100px;
+      width: 90px; 
+      height: 200px;
+}
+/* why chose us  */
+.why-box {
+        border: 3px solid #7c52ff;
+        padding: 40px;
+        border-radius: 10px;
+        background: #fff;
+    }
+
+    .tag {
+        background: #eaf0ff;
+        padding: 6px 20px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #3254ff;
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .feature-box {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .icon-box {
+        width: 45px;
+        height: 45px;
+        background: #eaf0ff;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #3254ff;
+        font-size: 20px;
+    }
+
+    .car-img {
+        width: 100%;
+        max-width: 650px;
+    }
+    /* popular rental card */
+    .section-tag {
+        background: #e8f0ff;
+        padding: 6px 20px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #4a6cff;
+        display: inline-block;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .car-card {
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 20px;
+        box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+        transition: 0.3s;
+        
+    }
+
+    .car-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 25px rgba(0,0,0,0.12);
+    }
+
+    .car-img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .price {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .rent-btn {
+        background: #1e6cff;
+        color: white;
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        font-weight: 600;
+        border: none;
+    }
+
+    .rent-btn:hover {
+        background: #1557d6;
+    }
+
+    .info-icon {
+        font-size: 15px;
+        color: #6c757d;
+    }
+    .show-all-vechile-buttonn {
+      width: 180px;
+      height: 40px;
+      padding: 10px ;
+      margin-left: 40%;
+    }
+    /* review */
+        .review-card {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      width: 800px;
+      height: 400px;
+    }
+
+    .review-card img {
+      width: auto;
+      height: 400px;
+      background-origin: 20px;
+    }
+        .review-card .review-content {
+      flex: 1;
+    }
+    .review-card-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .review-card {
+      border: 2px solid #ff9f00; 
+      border-radius: 15px;
+      padding: 20px;
+      max-width: 600px;
+    }
+      .star {
+      margin-top: 30px;
+    }
+    /* footer */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+    }
+
+    .logo-footer img {
+      height: 500px;
+      border: 5px solid black;
+    border-radius: 100px 100px 0 0;
+      
+    }
+
+    .app-download {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .app-download {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  footer {
+      background-color: #003366;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    footer .contact-info {
+      display: flex;
+      flex-direction: column;
+    }
+        footer .resources,
+    footer .follow-us {
+      display: flex;
+      flex-direction: column;
+      margin-left: 50px;
+    }
+
+    footer .resources a,
+    footer .follow-us a {
+      color: white;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    footer .follow-us a {
+      display: flex;
+      align-items: center;
+    }
+
+    footer .follow-us img {
+      margin-right: 10px;
+    }
+
+
+
