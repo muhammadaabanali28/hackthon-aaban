@@ -4,8 +4,6 @@ body {
   font-family: var(--bs-font-sans-serif);
 }
 
-
-
 /* NAVBAR */
 .navbar {
   padding: 20px 0;
@@ -68,13 +66,13 @@ body {
   padding: 15px 20px;
   border-radius: 8px;
   border: none;
-  margin-top: 30px;
+  margin: 30px auto 25px auto;
   font-size: 15px;
-  margin-left: 44%;
-  margin-bottom: 25px;
+  display: block;
 }
- /* icons  */
- .icon-bg {
+
+/* ICONS */
+.icon-bg {
   width: 90px;
   height: 90px;
   background: #EAF3FF;
@@ -82,170 +80,178 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto 15px auto;
 }
-/* brands logo */
-.logo-container img {
-      margin-top: 100px;
-      width: 90px; 
-      height: 200px;
+
+/* BRAND LOGOS */
+.logo-container img,
+.row.text-center img {
+  width: 80px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
-/* why chose us  */
+
+/* WHY CHOOSE US */
 .why-box {
-        border: 3px solid #7c52ff;
-        padding: 40px;
-        border-radius: 10px;
-        background: #fff;
-    }
+  border: 3px solid #7c52ff;
+  padding: 40px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 30px;
+}
 
-    .tag {
-        background: #eaf0ff;
-        padding: 6px 20px;
-        border-radius: 20px;
-        font-size: 14px;
-        color: #3254ff;
-        display: inline-block;
-        font-weight: 600;
-        margin-bottom: 15px;
-    }
+.tag {
+  background: #eaf0ff;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #3254ff;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
 
-    .feature-box {
-        display: flex;
-        align-items: flex-start;
-        gap: 15px;
-        margin-bottom: 25px;
-    }
+.feature-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
 
-    .icon-box {
-        width: 45px;
-        height: 45px;
-        background: #eaf0ff;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-weight: bold;
-        color: #3254ff;
-        font-size: 20px;
-    }
+.icon-box {
+  width: 45px;
+  height: 45px;
+  background: #eaf0ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #3254ff;
+  font-size: 20px;
+}
 
-    .car-img {
-        width: 100%;
-        max-width: 650px;
-    }
-    /* popular rental card */
-    .section-tag {
-        background: #e8f0ff;
-        padding: 6px 20px;
-        border-radius: 20px;
-        font-size: 14px;
-        color: #4a6cff;
-        display: inline-block;
-        margin-bottom: 15px;
-        font-weight: 600;
-    }
+.car-img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+}
 
-    .car-card {
-        background: #ffffff;
-        border-radius: 18px;
-        padding: 20px;
-        box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
-        transition: 0.3s;
-        
-    }
+/* POPULAR RENTAL CARDS */
+.section-tag {
+  background: #e8f0ff;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #4a6cff;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
 
-    .car-card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0px 10px 25px rgba(0,0,0,0.12);
-    }
+.car-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-    .car-img {
-        width: 100%;
-        margin-bottom: 15px;
-    }
+.car-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.12);
+}
 
-    .price {
-        font-size: 22px;
-        font-weight: 700;
-    }
+.price {
+  font-size: 22px;
+  font-weight: 700;
+}
 
-    .rent-btn {
-        background: #1e6cff;
-        color: white;
-        width: 100%;
-        padding: 10px;
-        border-radius: 8px;
-        font-weight: 600;
-        border: none;
-    }
+.rent-btn {
+  background: #1e6cff;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+}
 
-    .rent-btn:hover {
-        background: #1557d6;
-    }
+.rent-btn:hover {
+  background: #1557d6;
+}
 
-    .info-icon {
-        font-size: 15px;
-        color: #6c757d;
-    }
-    .show-all-vechile-buttonn {
-      width: 180px;
-      height: 40px;
-      padding: 10px ;
-      margin-left: 40%;
-    }
-    /* review */
-        .review-card {
-      display: flex;
-      align-items: center;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      margin: 20px;
-      width: 800px;
-      height: 400px;
-    }
+.show-all-vechile-buttonn {
+  display: block;
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  margin: 30px auto 0 auto;
+}
 
-    .review-card img {
-      width: auto;
-      height: 400px;
-      background-origin: 20px;
-    }
-        .review-card .review-content {
-      flex: 1;
-    }
-    .review-card-container {
-      display: flex;
-      justify-content: center;
-    }
+/* REVIEW SECTION */
+.review-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-    .review-card {
-      border: 2px solid #ff9f00; 
-      border-radius: 15px;
-      padding: 20px;
-      max-width: 600px;
-    }
-      .star {
-      margin-top: 30px;
-    }
-    /* footer */
-  
+.review-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 100%;
+  margin: 20px auto;
+  flex-direction: column;
+}
 
-/* ---------------- HEADER ---------------- */
+.review-card img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.review-card .review-content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.review-card .review-content p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-style: italic;
+  text-align: center;
+}
+
+/* FOOTER */
+header, footer {
+  flex-wrap: wrap;
+}
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  flex-wrap: wrap;             
 }
 
 .logo-footer img {
   height: 500px;
+  width: 100%;
+  max-width: 500px;
   border: 5px solid black;
   border-radius: 100px 100px 0 0;
   object-fit: cover;
-  width: 100%;
-  max-width: 500px;             /* responsive */
 }
 
 .app-download {
@@ -256,24 +262,31 @@ header {
   margin-top: 20px;
 }
 
-@media (min-width: 768px) {
-  app-download {
-    text-align: left;
-    align-items: flex-start;
-  }
+.app-download h1 {
+  font-size: 30px;
+  color: #333;
 }
 
+.app-download p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
 
+.download-buttons img {
+  width: 150px;
+  margin: 10px;
+}
+/* footer */
 footer {
   background-color: #003366;
   color: white;
   padding: 40px 20px;
   display: flex;
   justify-content: space-between;
-}
-
-footer .row {
   align-items: center;
+  flex-wrap: nowrap;
+  text-align: left;
 }
 
 footer .contact-info,
@@ -281,14 +294,14 @@ footer .resources,
 footer .follow-us {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 0; 
 }
 
 footer .resources a,
 footer .follow-us a {
   color: white;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 footer .follow-us a {
@@ -297,9 +310,19 @@ footer .follow-us a {
 }
 
 footer .follow-us img {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   margin-right: 10px;
-  object-fit: cover;     
+  object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+
